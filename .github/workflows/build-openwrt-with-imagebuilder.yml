@@ -176,16 +176,16 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.y_6.6.y"
+        default: "6.1.100_6.6.52"
         type: choice
         options:
-          - 5.4.y
-          - 5.10.y
-          - 5.15.y
-          - 6.1.y
-          - 6.6.y
-          - 6.1.y_6.6.y
-          - 5.15.y_5.10.y
+          - 5.4.275
+          - 5.10.218
+          - 5.15.158
+          - 6.1.100
+          - 6.6.52
+          - 6.1.100_6.6.52
+          - 5.15.158_5.10.218
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false

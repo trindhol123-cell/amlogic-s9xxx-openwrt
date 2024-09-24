@@ -179,13 +179,13 @@ on:
         default: "6.1.100_6.6.52"
         type: choice
         options:
-          - 5.4.275
+          - 5.4.279
           - 5.10.218
-          - 5.15.158
+          - 5.15.162
           - 6.1.100
           - 6.6.52
           - 6.1.100_6.6.52
-          - 5.15.158_5.10.218
+          - 5.15.162_5.10.218
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false

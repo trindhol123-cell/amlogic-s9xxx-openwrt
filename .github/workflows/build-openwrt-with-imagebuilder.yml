@@ -15,13 +15,13 @@ on:
       releases_branch:
         description: "Select the releases branch"
         required: false
-        default: "openwrt:23.05.4"
+        default: "openwrt:23.05.5"
         type: choice
         options:
+          - openwrt:23.05.5
           - openwrt:23.05.4
-          - openwrt:23.05.3
+          - immortalwrt:23.05.3
           - immortalwrt:23.05.2
-          - immortalwrt:23.05.1
       openwrt_board:
         description: "Select device board"
         required: false
@@ -216,7 +216,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - OpenWRT
 
 env:
   TZ: Asia/Jakarta
